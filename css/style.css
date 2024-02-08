@@ -19,13 +19,6 @@ header, footer {
 }
 
 
-
-/* Select the class wrapper
-
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 2em; */
-
 .wrapper {
     max-width: 940px;
     margin: 0 auto;
@@ -33,13 +26,6 @@ header, footer {
 } 
 
 
-
-
-
-/*Select both list types
-
-    padding: 0;
-    list-style: none;*/
     
 .list1{
     padding: 0;
@@ -52,36 +38,17 @@ header, footer {
 }
 
 
-
-/*Use descendant selector to select the links within the navigation
-
-    color: #DEC9E9;
-    text-decoration: none;*/
-
 nav ul a{
     color: #dec9e9;
     text-decoration: none;
 }
 
 
-
-/*Use an adjacent selector to target the section immediately beside the section with id #intro
-
-    background-color: #000;
-    color: #DEC9E9;*/
-
 main > section.list {
     background-color: #000;
     color: #ec9e9e;
 }
 
-
-/*Use a child selector to target the img tag directly with the article tags
-
-    width: 150px;
-    border-radius: 50%;
-    filter: grayscale(100%);
-    margin-top: 1em;*/
 
 article>img {
     width: 150px;
@@ -91,21 +58,11 @@ article>img {
 }
 
 
-
-/*Select every even numbered li within the ordered list
-
-    color: #dc33dc;*/
-
 li:nth-child(even){
     color: #dc33dc ;
 }
 
 
-
-
-/*Use a child selector to target the img tag directly with the main element 
-
-    width: 100%;*/
 main > img {
     width: 100%;
 }
